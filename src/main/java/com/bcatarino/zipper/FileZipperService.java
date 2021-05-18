@@ -22,7 +22,7 @@ import java.util.zip.ZipOutputStream;
 @Service
 @Slf4j
 public class FileZipperService {
-    static final String TEMP_FILES_FOLDER = System.getProperty("user.home") + File.pathSeparator;
+    static final String TEMP_FILES_FOLDER = System.getProperty("user.home") + File.separator;
 
     public Optional<Resource> createAndZipFile(String filenameToSave, MultipartFile[] files) {
         String localFileName = TEMP_FILES_FOLDER + filenameToSave;
