@@ -21,6 +21,12 @@ From the project root, generate the jar:
 
 ```./gradlew build```
 
+## Running tests
+
+From the project root:
+
+```./gradlew test```
+
 ## Running it
 
 From the project root, run 
